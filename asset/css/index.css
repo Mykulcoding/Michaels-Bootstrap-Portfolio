@@ -22,3 +22,12 @@
   }
 
   
+  .rockBackground {
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
