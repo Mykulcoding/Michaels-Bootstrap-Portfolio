@@ -19,7 +19,7 @@
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="asset/images/Portfolio icon.PNG">Michael's Portfolio</a>
+            <a class="navbar-brand" href="#"><img src="asset/images/Portfolio icon.PNG"><b>Michael's Portfolio</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -50,7 +50,7 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Add something</a></li>
+                            <li><a class="dropdown-item" href="#">Socials</a></li>
                         </ul>
                     </li>
 
@@ -61,12 +61,13 @@
     <!-- End navigation bar -->
 
     <!-- Jumbotron -->
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 WebBackground">
         <div class="container-fluid py-5 jumboCopy">
             <h1 class="display-5 fw-bold">Welcome to my portfolio!</h1>
-            <p class="col-md-12 fs-4">Hello, I'm Michael an aspiring front-end web designer passionate about creating
-                immersive and user-friendly digital experiences. With a background in Market Research, I'm dedicated to
-                crafting visually appealing and functional websites that leave a lasting impact.</p>
+            <p class="col-md-12 fs-4"><b>Hello, I'm Michael an aspiring front-end web designer passionate about creating
+                    immersive and user-friendly digital experiences. With a background in Market Research, I'm dedicated
+                    to
+                    crafting visually appealing and functional websites that leave a lasting impact.</b></p>
         </div>
     </div>
     <!-- End jumbotron -->
@@ -123,74 +124,103 @@
     <!-- End cards -->
 
     <!-- Content -->
-    <div class="container-fluid content"> <!-- Added class "content" to the container-fluid div -->
-        <h2 class="sectionHeading">Work</h2> <!-- Added heading -->
-        <div class="row projects"> <!-- Added class "showsNear" to the row div -->
+    <div class="container-fluid content">
+        <h2 class="sectionHeading">Work</h2>
+        <div class="row projects">
             <!-- Card 1 -->
-            <div class="row"> <!-- Updated column sizing for cardContainer -->
-                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                    <img src="asset/images/Work_image_2.jpg" class="card-img-top" alt="work station image">
-                    <div class="card-body">
-                        <h5 class="card-title">Prework-Study-Guide !</h5>
-                        <p class="card-text">This Prework Study Guide was created for boot camp students who were going
-                            through the Prework. It contains notes on HTML, CSS, Git, and JavaScript.</p>
-                        <a href="https://github.com/Mykulcoding/Prework-Study-Guide" class="btn btn-primary">View Project</a>
+            <div class="col-lg-3 col-md-3 col-sm-12 cardContainer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- Image on the left -->
+                        <img src="asset/images/Work_image_2.jpg" class="card-img-top" alt="work station image">
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <!-- Text on the right -->
+                        <div class="card-body">
+                            <h5 class="card-title">Prework-Study-Guide</h5>
+                            <p class="card-text">This Prework Study Guide was created for boot camp students who were
+                                going
+                                through the Prework. It contains notes on HTML, CSS, Git, and JavaScript.</p>
+                            <a href="https://github.com/Mykulcoding/Prework-Study-Guide" class="btn btn-primary">View
+                                Project</a>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <!-- You can repeat the above cardContainer for additional cards if needed -->
-
-        </div>
-        <div class="row projects"> <!-- Added class "showsNear" to the row div -->
-            <!-- Card 1 -->
-            <div class="row"> <!-- Updated column sizing for cardContainer -->
-                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                    <img src="asset/images/Work_image_3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Horiseon-Code-Optimization
-                        </h5>
-                        <p class="card-text">Market Research site to be accessible to the widest possible audience so I
-                            have worked to create a codebase that follows accessibility standards. Optimizing search
-                            engine will increase Visibility in Search Results. Cost-Effective Marketing. Improve User
-                            Experiences. Elevate Brand Awareness. </p>
-                        <a href="https://github.com/Mykulcoding/Horiseon-Code-Optimization" class="btn btn-primary">View Project</a>
+            <div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardContainer">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Image on the left -->
+                            <img src="asset/images/Work_image_3.jpg" class="card-img-top" alt="work station image">
+                        </div>
+                        <div class="col-md-6 text-end">
+                            <!-- Text on the right -->
+                            <div class="card-body">
+                                <h5 class="card-title">Horiseon-Code-Optimization</h5>
+                                <p class="card-text">Market Research site to be accessible to the widest possible
+                                    audience so I
+                                    have worked to create a codebase that follows accessibility standards. Optimizing
+                                    search
+                                    engine will increase Visibility in Search Results. Cost-Effective Marketing. Improve
+                                    User
+                                    Experiences. Elevate Brand Awareness.</p>
+                                <a href="https://github.com/Mykulcoding/Prework-Study-Guide"
+                                    class="btn btn-primary">View
+                                    Project</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-
-        </div>
-        <div class="row projects"> <!-- Added class "showsNear" to the row div -->
-            <!-- Card 1 -->
-            <div class="row"> <!-- Updated column sizing for cardContainer -->
-                <div class="cardContainer col-lg-3 col-md-3 col-sm-12">
-                    <img src="asset/images/Work_image_4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Michael's Portfolio!</h5>
-                        <p class="card-text">Created a well-structured portfolio that serves as a powerful tool for
-                            potential employers. Showcasing my best work and providing insights into my creative and
-                            problem-solving processes. </p>
-                        <a href="https://github.com/Mykulcoding/Michaels-Portfolio" class="btn btn-primary">View Project</a>
+            <div>
+                <div class="col-lg-3 col-md-3 col-sm-12 cardContainer">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- Image on the left -->
+                            <img src="asset/images/Work_image_4.jpg" class="card-img-top" alt="work station image">
+                        </div>
+                        <div class="col-md-6 text-end">
+                            <!-- Text on the right -->
+                            <div class="card-body">
+                                <h5 class="card-title">Michael's Portfolio</h5>
+                                <p class="card-text">Created a well-structured portfolio that serves as a powerful tool
+                                    for
+                                    potential employers. Showcasing my best work and providing insights into my creative
+                                    and
+                                    problem-solving processes.</p>
+                                <a href="https://github.com/Mykulcoding/Prework-Study-Guide"
+                                    class="btn btn-primary">View
+                                    Project</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 
     <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
         <div class="container-fluid py-5 jumboCopy">
-            <h1 class="display-5 fw-bold">About me!</h1>
-            <p class="col-md-12 fs-4">My journey into the world of web design started with a fascination for the
-                limitless possibilities of the web. Over the years, I've honed my skills in HTML, CSS, JavaScript, and
-                other front-end technologies to transform my creative ideas into reality. I love the process of taking a
-                concept from a blank canvas to a fully functional, visually striking website.
-            </p>
-            <button class="btn btn-primary btn-lg" type="button">Download my Resume</button>
-            <img src="asset/images/Profile-pic.jpg" class="card-img-top" alt="Display picture">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="display-5 fw-bold">About me!</h1>
+                    <p class="col-md-12 fs-4">My journey into the world of web design started with a fascination for the
+                        limitless possibilities of the web. Over the years, I've honed my skills in HTML, CSS,
+                        JavaScript, and
+                        other front-end technologies to transform my creative ideas into reality. I love the process of
+                        taking a
+                        concept from a blank canvas to a fully functional, visually striking website.
+                    </p>
+                    <button class="btn btn-primary btn-lg" type="button">Download my Resume</button>
+                </div>
+                <div class="col-md-6">
+                    <img src="asset/images/Profile-pic.jpg" class="card-img-top img-reduced-size" alt="Display picture">
+                </div>
+            </div>
         </div>
     </div>
+
     <!-- End content -->
 
     <!-- Footer -->
