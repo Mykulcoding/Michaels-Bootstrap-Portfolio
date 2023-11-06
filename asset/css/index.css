@@ -23,7 +23,7 @@
 
 
 .WebBackground {
-    height: calc(100vh - 25px);
+    height: calc(90vh - 25px);
     background-image: url(../images/Coding_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
