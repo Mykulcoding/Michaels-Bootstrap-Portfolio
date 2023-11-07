@@ -59,7 +59,8 @@ W3 Coding
 ## Usage
 
 To view my portfolio, visit https://mykulcoding.github.io/Michaels-Bootstrap-Portfolio/
-screenshot (asset/images/Screenshot.PNG)
+screenshot ![image](https://github.com/Mykulcoding/Michaels-Bootstrap-Portfolio/assets/147704782/07088bc1-14da-4041-9492-1dfbe4d57ae9)
+
 
 ## Testing
 
