@@ -19,17 +19,19 @@
 
 .nav-item {
     margin: 0px 15px;
+    color: aqua;
 }
 
 
 .WebBackground {
     height: calc(90vh - 25px);
-    background-image: url(../images/Coding_background.jpg);
+    background-image: url(../images/portfolio_mbp.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: aqua;
 }
 
 
@@ -38,6 +40,76 @@
     height: auto;
 }
 
-.col-md-6 .text-end {
-    text-align: right;
+.navbar-nav .nav-link {
+    color: rgba(161, 22, 22, 0.76);
 }
+
+
+/** michaels portfolio**/
+.navbar-brand {
+    color: rgb(184, 187, 187);
+}
+
+.nav-link {
+    color: aqua;
+}
+
+.sectionHeading {
+    color: rgb(184, 187, 187);
+}
+
+.py-5 {
+    color: rgb(184, 187, 187)
+}
+
+
+.card .card-img-top {
+    width: 100%;
+    /* Increase the image width to 100% */
+    height: auto;
+    /* Maintain aspect ratio */
+}
+
+.card-text {
+    color: brown;
+}
+
+
+
+.FooterIcon {
+    text-align: center;
+    /* To center the text horizontally */
+    height: 10vh;
+    font-size: small;
+}
+
+.FooterIcon,
+h3 {
+    font-size: small;
+}
+
+/*hover effect*/
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 42, 42);
+
+
+}
+
+
+.btn:hover {
+    box-shadow: 0 0 5px rgba(247, 176, 176, 0.3);
+
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+h1,
+h5:hover {
+    color: brown;
+}
+
+.WebBackground:hover{filter: grayscale(100%);}
